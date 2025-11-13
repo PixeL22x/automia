@@ -38,7 +38,7 @@ export default function Testimonials() {
               <div className={styles.rating}>
                 {'★'.repeat(testimonial.rating)}
               </div>
-              <p className={styles.content}>"{testimonial.content}"</p>
+              <p className={styles.content}>&ldquo;{testimonial.content}&rdquo;</p>
               <div className={styles.author}>
                 <div>
                   <h4 className={styles.name}>{testimonial.name}</h4>
